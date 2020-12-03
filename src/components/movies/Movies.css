@@ -32,19 +32,27 @@
 .each-movie-box {
   margin-right: 20px;
   object-fit: contain;
-  height: fit-content;
+  max-height: fit-content;
+  max-width: 160px;
+}
+
+.each-trailer-box {
+  max-width: 356px;
 }
 
 .row-poster {
   cursor: pointer;
   object-fit: contain;
   max-height: 240px;
+  max-width: 160px;
   border-radius: 10px;
   transition: transform 450ms;
 }
 
-.row-poster-small {
+.row-poster-backdrop {
+  object-fit: contain;
   max-height: 200px;
+  max-width: 356px;
 }
 
 .row-poster-small:hover {

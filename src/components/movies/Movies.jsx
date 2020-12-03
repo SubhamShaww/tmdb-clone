@@ -78,12 +78,12 @@ function Movies({ title, fetchUrl, isTrailer }) {
         {movies.map((movie) => {
           return (
             movie?.backdrop_path && (
-              <div key={movie.id} className="each-movie-box">
+              <div key={movie.id} className={`each-movie-box ${isTrailer && "each-trailer-box"}`}>
                 <img
                   onClick={isTrailer && (() => {
                     handleClick(movie);
                   })}
-                  className={`row-poster ${isTrailer && "row-poster-small"}`}
+                  className={`row-poster ${isTrailer && "row-poster-backdrop"}`}
                   src={`${imageBaseUrl}${
                     isTrailer ? movie.backdrop_path : movie.poster_path
                   }`}
