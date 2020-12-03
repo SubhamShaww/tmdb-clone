@@ -1,0 +1,57 @@
+.banner {
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 50px;
+}
+
+.banner-contents {
+  padding: 5% 5%;
+}
+
+.banner-title {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0;
+}
+
+.banner-description {
+  width: 100%;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.inner-search-form {
+  position: relative;
+}
+
+.input-text {
+  width: 100%;
+  height: 46px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.input-submit {
+  font: inherit;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 0.9rem;
+  height: 46px;
+  padding: 10px 26px;
+  border: none;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgba(30, 213, 169, 1) 0%,
+    rgba(1, 180, 228, 1) 100%
+  );
+  position: absolute;
+  right: -1px;
+}

@@ -1,0 +1,39 @@
+.leaderboard-box {
+  padding: 30px 40px;
+}
+
+.leaderboard-header {
+  display: flex;
+}
+
+.leaderboard-header h2 {
+  margin-right: 20px;
+}
+
+.leaderboard-content {
+  padding-top: 20px;
+}
+
+.all-time {
+  background: linear-gradient(
+    to right,
+    rgba(192, 254, 207, 1) 0%,
+    rgba(30, 213, 169, 1) 100%
+  );
+}
+
+.this-week {
+  background: linear-gradient(
+    to right,
+    rgba(253, 193, 112, 1) 0%,
+    rgba(217, 59, 99, 1) 100%
+  );
+}
+
+.dot {
+  border-radius: 50%;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+}

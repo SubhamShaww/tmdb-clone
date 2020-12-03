@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue-bg {
+  background-color: #032541;
+}
+
+.small-font-opac {
+  font-size: 0.7rem;
+  opacity: 0.2;
+}
